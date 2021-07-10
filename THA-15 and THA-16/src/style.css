@@ -1,0 +1,57 @@
+.card {
+  /* padding-left: 20px; */
+  border: 1px solid black;
+  margin: auto;
+  display: inline-block;
+  margin-top: 50px;
+  /* align-items: center; */
+}
+.board {
+  display: inline-block;
+}
+.Square {
+  margin-bottom: -4px;
+  height: 35px;
+  width: 35px;
+  padding: 0;
+  display: inline-block;
+  border: 1px solid black;
+}
+.Black {
+  margin-bottom: -4px;
+  height: 35px;
+  width: 35px;
+  padding: 0;
+  display: inline-block;
+  background-color: black;
+  border: 1px solid black;
+}
+
+/* .Square:nth-of-type(2n) {
+  background: black;
+} */
+.container {
+  margin-top: 18px;
+  margin-left: 10px;
+  border: 14px solid black;
+  width: 259px;
+}
+.Chess {
+  /* height: 300px; */
+  display: flex;
+  flex-direction: row;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  justify-content: center;
+  display: flex;
+}
+.card img {
+  width: 300px;
+  height: 200px;
+}
