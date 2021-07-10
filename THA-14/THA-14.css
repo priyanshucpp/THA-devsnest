@@ -1,0 +1,45 @@
+.btn1 {
+  font-size: 20px;
+  /* display: inline block; */
+  border: none;
+  width: 118px;
+  background-color: lightseagreen;
+  color: white;
+  /* margin-top: 37px; */
+  margin: auto;
+}
+/* .img1 {
+  background-image: url(./stars.jpg);
+} */
+.italic {
+  font-style: italic;
+  color: blue;
+}
+#input1 {
+  margin-top: 24px;
+  height: 45px;
+  width: 200px;
+  font-size: 20px;
+}
+.para1 {
+  font-weight: bolder;
+}
+* {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./evening.jpg);
+  background-repeat: no-repeat;
+  /* background-size: 1672px 476px; */
+  /* background-size: cover; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.input2 {
+  border: aqua;
+  cursor: text;
+  background-color: red;
+}
