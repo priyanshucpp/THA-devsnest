@@ -1,0 +1,38 @@
+.h1 {
+  margin-top: 20px;
+  text-align: center;
+}
+.calorie {
+  padding: 5px;
+}
+
+.list {
+  border: solid black 0.5px;
+  /* align-self: center; */
+  box-shadow: 10px 13px 14px black;
+  /* z-index: 2; */
+  width: 530px;
+  margin-left: 499px;
+  overflow-y: scroll;
+  margin-top: 30px;
+  height: 500px;
+}
+.card {
+  /* margin: auto; */
+  margin-left: 11px;
+  margin-top: 34px;
+  height: 100px;
+  box-shadow: 10px 13px 10px black;
+  /* border: solid 1px black; */
+  width: 487px;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  background-color: rgb(90, 145, 35);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
