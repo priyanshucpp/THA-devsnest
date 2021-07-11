@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  background-image: url(./cube.jpg);
+  background-size: cover;
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.container {
+  width: 800px;
+  max-width: 80%;
+  /* background-color: white; */
+  background-color: lightcyan;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 10px 2px;
+}
+
+.grid {
+  display: grid;
+  /* grid-template-columns: repeat(2, auto); */
+  gap: 10px;
+  margin: 20px 0;
+}
+.btn:hover {
+  background-color: blue;
+  color: white;
+}
+.btn {
+  border: hidden;
+  border-radius: 5px;
+}
+.btn.correct {
+  color: white;
+  background-color: green;
+}
+.btn.wrong {
+  color: white;
+  background-color: red;
+}
+/* .container {
+  background-image: url(img_cube.jpg);
+} */
+.start,
+.next {
+  font-weight: bold;
+  font-size: 25px;
+  flex: 50%;
+  padding: 10px 10px;
+}
+.controls {
+  display: flex;
+}
+.hide {
+  display: none;
+}
