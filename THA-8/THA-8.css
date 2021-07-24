@@ -1,0 +1,21 @@
+.container {
+  margin: auto;
+  border: 3px solid black;
+  width: 339px;
+  height: 339px;
+  margin-top: 10%;
+  display: grid;
+  grid-template-columns: repeat(20, auto);
+  padding: 1px;
+
+  cursor: pointer;
+}
+.square {
+  height: 15px;
+  width: 15px;
+  border: 1px solid #e24e3f;
+}
+
+.bg-red {
+  background-color: #de4738;
+}
