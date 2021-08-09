@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  /* background-color: black; */
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+
+  margin: 0px 5px;
+  /* display: flex; */
+  padding: 15px;
+  width: 100%;
+  /* border: 2px solid black; */
+}
+.App ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.App ul a {
+  /* color: rgb(209, 76, 209); */
+  text-decoration: none;
+  font-size: 25px;
+}
+.App ul a:hover {
+  text-decoration: underline;
+  color: whitesmoke;
+}
+.App h1 {
+  font-size: 2.5rem;
+  color: white;
+  font-style: normal;
+}
+li {
+  display: inline-block;
+}
+.App div {
+  font-style: italic;
+  padding: 15px;
+  color: whitesmoke;
+}
+.App {
+  /* background-color: #55423d; */
+  align-items: center;
+  text-align: center;
+  background-color: rgb(158, 89, 68);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.App button {
+  /* background-color: blue; */
+  padding: 5px;
+  height: 50px;
+  width: 90px;
+  /* background: linear-gradient(
+    90deg,
+    rgba(9, 18, 121, 0.9223039557619923) 45%,
+    rgba(59, 94, 177, 0.014836795252225476) 66%
+  ); */
+
+  background: linear-gradient(
+    90deg,
+    rgba(9, 18, 121, 0.9223039557619923) 8%,
+    rgba(59, 94, 177, 0.9881305637982196) 66%
+  );
+  font-weight: bolder;
+  color: whitesmoke;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  border-radius: 5px;
+}
+.App button:hover {
+  border: 1px solid red;
+  color: black;
+  background: white;
+}
+.App button:active {
+  transform: scale(0.95);
+}
