@@ -1,0 +1,65 @@
+/* .navbar {
+  background-color: rgba(42, 51, 8, 0.39);
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.navbar a {
+  font-size: 25px;
+  border: 1px solid transparent;
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
+}
+.about ul {
+  font-size: 30px;
+}
+
+.info {
+  width: 30%;
+  margin: 50px auto;
+  padding: 10px;
+  border: 3px solid black;
+}
+
+.profile li {
+  width: 30%;
+  margin: auto;
+  font-size: 20px;
+} */
+form {
+  display: flex;
+  width: 30%;
+  margin: auto;
+  justify-content: space-evenly;
+}
+form input {
+  width: 400px;
+}
+form .select {
+  width: 50px;
+}
+
+/* Todo List */
+/* .completed{
+    text-decoration-line: line-through;
+    opacity: 0.5;
+} */
+input[type="checkbox"] {
+  zoom: 2.5;
+}
+
+.item-enter {
+  opacity: 0;
+}
+.item-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+.item-exit {
+  opacity: 1;
+}
+.item-exit-active {
+  opacity: 0;
+  transition: opacity 500ms ease-in;
+}
